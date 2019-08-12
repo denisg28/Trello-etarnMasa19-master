@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telran.tests.test.ChangeAvatarTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-12T10:52:56" hostname="PC18032019" time="22.509">
+<testsuite name="com.telran.tests.test.ChangeAvatarTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-12T11:28:32" hostname="PC18032019" time="32.49">
   <properties/>
-  <testcase name="ChangeAvatarTest" classname="com.telran.tests.test.ChangeAvatarTest" time="22.509"/>
-  <system-out><![CDATA[13:52:55.772 [Test worker] INFO  com.telran.tests.test.TestBase - Start CreateBoardTestChangeAvatarTestwith parameters[]
-Screenshot name: screenshot-1565607176112.png
+  <testcase name="ChangeAvatarTest" classname="com.telran.tests.test.ChangeAvatarTest" time="32.49"/>
+  <system-out><![CDATA[14:28:31.694 [Test worker] INFO  com.telran.tests.test.TestBase - Start CreateBoardTestChangeAvatarTestwith parameters[]
+Screenshot name: screenshot-1565609312020.png
+14:28:32.026 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element By.cssSelector: .js-open-header-member-menu
+14:28:32.039 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - elementBy.cssSelector: .js-open-header-member-menufound
+14:28:32.102 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element By.cssSelector: [data-test-id='header-member-menu-profile']
+14:28:32.118 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - elementBy.cssSelector: [data-test-id='header-member-menu-profile']found
+14:28:34.177 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element By.cssSelector: [class='MrFeHFqEkuBP9W _1h1BubYfUOs6MB']
+14:28:34.189 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - elementBy.cssSelector: [class='MrFeHFqEkuBP9W _1h1BubYfUOs6MB']found
+14:28:34.343 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element By.xpath: //*[@name='file']
+14:28:34.358 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - elementBy.xpath: //*[@name='file']found
+14:28:54.382 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element By.cssSelector: a [name=house]
+14:28:54.395 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - elementBy.cssSelector: a [name=house]found
+14:28:59.476 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element By.cssSelector: a [name=house]
+14:28:59.485 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - elementBy.cssSelector: a [name=house]found
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,0 +1,30 @@
+14:28:18.992 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element By.cssSelector: [href='/login']
+14:28:19.009 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - elementBy.cssSelector: [href='/login']found
+14:28:19.058 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element By.id: user
+14:28:21.282 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - elementBy.id: userfound
+14:28:21.371 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element By.id: user
+14:28:21.382 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - elementBy.id: userfound
+14:28:21.409 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element By.id: user
+14:28:21.420 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - elementBy.id: userfound
+14:28:21.481 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element By.id: password
+14:28:21.493 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - elementBy.id: passwordfound
+14:28:21.534 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element By.id: password
+14:28:21.543 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - elementBy.id: passwordfound
+14:28:21.562 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element By.id: password
+14:28:21.574 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - elementBy.id: passwordfound
+14:28:21.624 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element By.id: login
+14:28:21.636 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - elementBy.id: loginfound
+14:28:31.694 [Test worker] INFO  com.telran.tests.test.TestBase - Start CreateBoardTestChangeAvatarTestwith parameters[]
+14:28:32.026 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element By.cssSelector: .js-open-header-member-menu
+14:28:32.039 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - elementBy.cssSelector: .js-open-header-member-menufound
+14:28:32.102 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element By.cssSelector: [data-test-id='header-member-menu-profile']
+14:28:32.118 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - elementBy.cssSelector: [data-test-id='header-member-menu-profile']found
+14:28:34.177 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element By.cssSelector: [class='MrFeHFqEkuBP9W _1h1BubYfUOs6MB']
+14:28:34.189 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - elementBy.cssSelector: [class='MrFeHFqEkuBP9W _1h1BubYfUOs6MB']found
+14:28:34.343 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element By.xpath: //*[@name='file']
+14:28:34.358 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - elementBy.xpath: //*[@name='file']found
+14:28:54.382 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element By.cssSelector: a [name=house]
+14:28:54.395 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - elementBy.cssSelector: a [name=house]found
+14:28:59.476 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - Start search element By.cssSelector: a [name=house]
+14:28:59.485 [Test worker] INFO  c.t.t.f.ApplicationManager$MyListener - elementBy.cssSelector: a [name=house]found
+14:29:04.910 [Test worker] INFO  com.telran.tests.test.TestBase - Stop CreateBoardTest

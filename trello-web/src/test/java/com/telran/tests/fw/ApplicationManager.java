@@ -8,6 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.BrowserType;
 import org.openqa.selenium.support.events.AbstractWebDriverEventListener;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.BeforeMethod;
@@ -22,7 +23,9 @@ public class ApplicationManager {
   HeaderPage header;
   HelperProfile profile;
 
- WebDriver driver;
+
+ EventFiringWebDriver driver;
+
     public String browser;
 
     public static class MyListener extends AbstractWebDriverEventListener
@@ -55,15 +58,15 @@ public class ApplicationManager {
 
     if(browser.equals(BrowserType.CHROME))
     {
-        driver = new ChromeDriver();
+        driver = new EventFiringWebDriver(new ChromeDriver());
     }
     else if(browser.equals(BrowserType.IE))
     {
-        driver = new InternetExplorerDriver();
+        driver = new EventFiringWebDriver(new InternetExplorerDriver());
     }
     else if(browser.equals(BrowserType.FIREFOX))
     {
-        driver = new FirefoxDriver();
+        driver = new EventFiringWebDriver(new FirefoxDriver());
     }else
     {
         System.out.println("Unknown Browser Format");
@@ -79,6 +82,7 @@ public class ApplicationManager {
     profile = new HelperProfile(driver);
 
    //session.login("elena.telran@yahoo.com", "12345.com");
+       driver.register(new MyListener());
         session.login("deniskog28@rambler.ru", "denisg28g28g28");
    //   session.login("denisg28g@gmail.com", "denisg28g28g28");
 //        driver.manage().window().maximize();
