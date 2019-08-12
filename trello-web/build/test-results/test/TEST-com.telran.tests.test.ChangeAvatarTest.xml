@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.tests.test.ChangeAvatarTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-12T10:52:56" hostname="PC18032019" time="22.509">
+  <properties/>
+  <testcase name="ChangeAvatarTest" classname="com.telran.tests.test.ChangeAvatarTest" time="22.509"/>
+  <system-out><![CDATA[13:52:55.772 [Test worker] INFO  com.telran.tests.test.TestBase - Start CreateBoardTestChangeAvatarTestwith parameters[]
+Screenshot name: screenshot-1565607176112.png
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

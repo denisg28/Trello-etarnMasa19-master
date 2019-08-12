@@ -1,0 +1,4 @@
+17441 [Test worker] INFO  com.telran.tests.test.TestBase - Start CreateBoardTestChangeAvatarTestwith parameters[]
+40564 [Test worker] INFO  com.telran.tests.test.TestBase - Stop CreateBoardTest
+13:42:06.542 [Test worker] INFO  com.telran.tests.test.TestBase - Start CreateBoardTestcreateTeamFromHeaderTestwith parameters[]
+13:42:17.541 [Test worker] INFO  com.telran.tests.test.TestBase - Stop CreateBoardTest

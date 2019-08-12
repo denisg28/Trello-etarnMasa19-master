@@ -1,0 +1,2 @@
+13:52:55.772 [Test worker] INFO  com.telran.tests.test.TestBase - Start CreateBoardTestChangeAvatarTestwith parameters[]
+13:53:18.961 [Test worker] INFO  com.telran.tests.test.TestBase - Stop CreateBoardTest
