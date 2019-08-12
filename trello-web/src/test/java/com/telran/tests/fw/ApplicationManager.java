@@ -13,6 +13,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.BeforeMethod;
 
+import java.io.IOException;
 import java.lang.reflect.Method;
 import java.util.concurrent.TimeUnit;
 
@@ -28,8 +29,9 @@ public class ApplicationManager {
 
     public String browser;
 
-    public static class MyListener extends AbstractWebDriverEventListener
+    public class MyListener extends AbstractWebDriverEventListener
     {
+        HelperBase helper = new HelperBase(driver);
         Logger logger = LoggerFactory.getLogger(MyListener.class);
 
         @Override
@@ -44,7 +46,13 @@ public class ApplicationManager {
 
         @Override
         public void onException(Throwable throwable, WebDriver driver) {
+
             logger.error(throwable.toString());
+            try {
+                helper.takeScreenshot();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
     }
 
@@ -83,7 +91,7 @@ public class ApplicationManager {
 
    //session.login("elena.telran@yahoo.com", "12345.com");
        driver.register(new MyListener());
-        session.login("deniskog28@rambler.ru", "denisg28g28g28");
+        session.login("de/niskog28@rambler.ru", "denisg28g28g28");
    //   session.login("denisg28g@gmail.com", "denisg28g28g28");
 //        driver.manage().window().maximize();
   }
