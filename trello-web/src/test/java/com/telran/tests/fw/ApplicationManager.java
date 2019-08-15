@@ -91,7 +91,7 @@ public class ApplicationManager {
 
    //session.login("elena.telran@yahoo.com", "12345.com");
        driver.register(new MyListener());
-        session.login("de/niskog28@rambler.ru", "denisg28g28g28");
+        session.login("deniskog28@rambler.ru", "denisg28g28g28");
    //   session.login("denisg28g@gmail.com", "denisg28g28g28");
 //        driver.manage().window().maximize();
   }
