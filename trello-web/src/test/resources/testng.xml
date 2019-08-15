@@ -4,9 +4,9 @@
     <test name="Regression" >
         <classes>
             <class name="com.telran.tests.test.LogInTest" />
-            <class name="com.telran.tests.test.CreateTeamTests" />
+          <!--  <class name="com.telran.tests.test.CreateTeamTests" />
             <class name="com.telran.tests.test.CreateBoardTest" />
-            <class name="com.telran.tests.test.TeamDeletionTest" />
+            <class name="com.telran.tests.test.TeamDeletionTest" /> -->
             <class name="com.telran.tests.test.ChangeAvatarTest" />
             <!--
             Type comments
